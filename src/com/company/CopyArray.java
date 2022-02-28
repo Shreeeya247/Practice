@@ -37,8 +37,8 @@ public class CopyArray {
             arr1[i] = scan.nextInt();
         }
         System.arraycopy(arr1, 0, arr2, 0, n);
-        for(int j = 0; j < n; j++) {
-            System.out.print(arr2[j] + " ");
+        for(int i = 0; i < n; i++) {
+            System.out.print(arr2[i] + " ");
         }
     }
     public static void main(String args[]){
